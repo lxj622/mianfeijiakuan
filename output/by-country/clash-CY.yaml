@@ -4,7 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇾 CY 01 - xiaohe
+- name: 🇨🇾 CY 01 - 天宇
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: qq
+- name: 🇨🇾 CY 02 - 天宇
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: qq
+- name: 🇨🇾 CY 03 - 天宇
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -16,7 +40,7 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: chrome
-- name: 🇨🇾 CY 02 - xiaohe
+- name: 🇨🇾 CY 04 - 天宇
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -28,7 +52,7 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: chrome
-- name: 🇨🇾 CY 03 - xiaohe
+- name: 🇨🇾 CY 05 - 天宇
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -40,19 +64,7 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: random
-- name: 🇨🇾 CY 04 - xiaohe
-  type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-  servername: deepl.com
-  client-fingerprint: qq
-- name: 🇨🇾 CY 05 - xiaohe
+- name: 🇨🇾 CY 06 - 天宇
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -64,19 +76,7 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: chrome
-- name: 🇨🇾 CY 06 - xiaohe
-  type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-  servername: deepl.com
-  client-fingerprint: qq
-- name: 🇨🇾 CY 07 - xiaohe
+- name: 🇨🇾 CY 07 - 天宇
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -88,19 +88,7 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: chrome
-- name: 🇨🇾 CY 08 - xiaohe
-  type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-  servername: deepl.com
-  client-fingerprint: firefox
-- name: 🇨🇾 CY 09 - xiaohe
+- name: 🇨🇾 CY 08 - 天宇
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -112,7 +100,16 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: qq
-- name: 🇨🇾 CY 10 - xiaohe
+- name: 🇨🇾 CY 09 - 天宇
+  type: vless
+  server: 45.9.2.171
+  port: 8443
+  uuid: 167610e4-bcaf-4074-bc2d-0c08dc4ea294
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: torr.wlrus.cfd
+- name: 🇨🇾 CY 10 - 天宇
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -124,7 +121,7 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: firefox
-- name: 🇨🇾 CY 11 - xiaohe
+- name: 🇨🇾 CY 11 - 天宇
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -136,7 +133,19 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: qq
-- name: 🇨🇾 CY 12 - xiaohe
+- name: 🇨🇾 CY 12 - 天宇
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: firefox
+- name: 🇨🇾 CY 13 - 天宇
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -153,34 +162,36 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇨🇾 CY 01 - xiaohe
-  - 🇨🇾 CY 02 - xiaohe
-  - 🇨🇾 CY 03 - xiaohe
-  - 🇨🇾 CY 04 - xiaohe
-  - 🇨🇾 CY 05 - xiaohe
-  - 🇨🇾 CY 06 - xiaohe
-  - 🇨🇾 CY 07 - xiaohe
-  - 🇨🇾 CY 08 - xiaohe
-  - 🇨🇾 CY 09 - xiaohe
-  - 🇨🇾 CY 10 - xiaohe
-  - 🇨🇾 CY 11 - xiaohe
-  - 🇨🇾 CY 12 - xiaohe
+  - 🇨🇾 CY 01 - 天宇
+  - 🇨🇾 CY 02 - 天宇
+  - 🇨🇾 CY 03 - 天宇
+  - 🇨🇾 CY 04 - 天宇
+  - 🇨🇾 CY 05 - 天宇
+  - 🇨🇾 CY 06 - 天宇
+  - 🇨🇾 CY 07 - 天宇
+  - 🇨🇾 CY 08 - 天宇
+  - 🇨🇾 CY 09 - 天宇
+  - 🇨🇾 CY 10 - 天宇
+  - 🇨🇾 CY 11 - 天宇
+  - 🇨🇾 CY 12 - 天宇
+  - 🇨🇾 CY 13 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇾 CY 01 - xiaohe
-  - 🇨🇾 CY 02 - xiaohe
-  - 🇨🇾 CY 03 - xiaohe
-  - 🇨🇾 CY 04 - xiaohe
-  - 🇨🇾 CY 05 - xiaohe
-  - 🇨🇾 CY 06 - xiaohe
-  - 🇨🇾 CY 07 - xiaohe
-  - 🇨🇾 CY 08 - xiaohe
-  - 🇨🇾 CY 09 - xiaohe
-  - 🇨🇾 CY 10 - xiaohe
-  - 🇨🇾 CY 11 - xiaohe
-  - 🇨🇾 CY 12 - xiaohe
+  - 🇨🇾 CY 01 - 天宇
+  - 🇨🇾 CY 02 - 天宇
+  - 🇨🇾 CY 03 - 天宇
+  - 🇨🇾 CY 04 - 天宇
+  - 🇨🇾 CY 05 - 天宇
+  - 🇨🇾 CY 06 - 天宇
+  - 🇨🇾 CY 07 - 天宇
+  - 🇨🇾 CY 08 - 天宇
+  - 🇨🇾 CY 09 - 天宇
+  - 🇨🇾 CY 10 - 天宇
+  - 🇨🇾 CY 11 - 天宇
+  - 🇨🇾 CY 12 - 天宇
+  - 🇨🇾 CY 13 - 天宇
 rules:
 - MATCH,PROXIES

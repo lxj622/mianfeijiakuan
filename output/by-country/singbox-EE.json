@@ -6,20 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 EE 01 - xiaohe",
-        "🇪🇪 EE 02 - xiaohe",
-        "🇪🇪 EE 03 - xiaohe",
-        "🇪🇪 EE 04 - xiaohe"
+        "🇪🇪 EE 01 - 天宇",
+        "🇪🇪 EE 02 - 天宇",
+        "🇪🇪 EE 03 - 天宇",
+        "🇪🇪 EE 04 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 EE 01 - xiaohe",
-        "🇪🇪 EE 02 - xiaohe",
-        "🇪🇪 EE 03 - xiaohe",
-        "🇪🇪 EE 04 - xiaohe"
+        "🇪🇪 EE 01 - 天宇",
+        "🇪🇪 EE 02 - 天宇",
+        "🇪🇪 EE 03 - 天宇",
+        "🇪🇪 EE 04 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
