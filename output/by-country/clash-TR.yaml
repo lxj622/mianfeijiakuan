@@ -24,23 +24,7 @@ proxies:
   reality-opts:
     public-key: k5COjpopVNGzEuMb457zCrrZegSdBX-d8bg0G6HDsE4
   servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 03 - 天宇
-  type: vless
-  server: 206.1.96.228
-  port: 8082
-  uuid: bfb3f06c-e33f-41ac-b101-012c8325a689
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 04 - 天宇
-  type: vless
-  server: 206.1.96.228
-  port: 8082
-  uuid: bfb3f06c-e33f-41ac-b101-012c8325a689
-  udp: true
-  tls: false
-  skip-cert-verify: true
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -48,8 +32,6 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - 天宇
   - 🇹🇷 土耳其 (Turkey) 02 - 天宇
-  - 🇹🇷 土耳其 (Turkey) 03 - 天宇
-  - 🇹🇷 土耳其 (Turkey) 04 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -57,7 +39,5 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - 天宇
   - 🇹🇷 土耳其 (Turkey) 02 - 天宇
-  - 🇹🇷 土耳其 (Turkey) 03 - 天宇
-  - 🇹🇷 土耳其 (Turkey) 04 - 天宇
 rules:
 - MATCH,PROXIES

@@ -13,38 +13,31 @@ proxies:
   udp: true
 - name: 🇿🇦 ZA 02 - 天宇
   type: ss
-  server: 20.164.211.25
+  server: 20.164.43.105
   port: 443
   cipher: chacha20-ietf-poly1305
   password: BhYMkBpjAjE6ixSw
   udp: true
 - name: 🇿🇦 ZA 03 - 天宇
   type: ss
-  server: 20.164.43.105
+  server: 102.133.165.160
+  port: 16233
+  cipher: chacha20-ietf-poly1305
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  udp: true
+- name: 🇿🇦 ZA 04 - 天宇
+  type: ss
+  server: 20.164.211.25
   port: 443
   cipher: chacha20-ietf-poly1305
   password: BhYMkBpjAjE6ixSw
   udp: true
-- name: 🇿🇦 ZA 04 - 天宇
+- name: 🇿🇦 ZA 05 - 天宇
   type: ss
   server: 139.84.247.164
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: tfAcRikawhNoZAhu
-  udp: true
-- name: 🇿🇦 ZA 05 - 天宇
-  type: ss
-  server: 20.164.43.105
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: BhYMkBpjAjE6ixSw
-  udp: true
-- name: 🇿🇦 ZA 06 - 天宇
-  type: ss
-  server: 102.133.165.160
-  port: 16233
-  cipher: chacha20-ietf-poly1305
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -56,7 +49,6 @@ proxy-groups:
   - 🇿🇦 ZA 03 - 天宇
   - 🇿🇦 ZA 04 - 天宇
   - 🇿🇦 ZA 05 - 天宇
-  - 🇿🇦 ZA 06 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -67,6 +59,5 @@ proxy-groups:
   - 🇿🇦 ZA 03 - 天宇
   - 🇿🇦 ZA 04 - 天宇
   - 🇿🇦 ZA 05 - 天宇
-  - 🇿🇦 ZA 06 - 天宇
 rules:
 - MATCH,PROXIES
