@@ -6,16 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇭 CH 01 - 天宇",
-        "🇨🇭 CH 02 - 天宇"
+        "🇦🇲 AM 01 - 天宇",
+        "🇦🇲 AM 02 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇭 CH 01 - 天宇",
-        "🇨🇭 CH 02 - 天宇"
+        "🇦🇲 AM 01 - 天宇",
+        "🇦🇲 AM 02 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
