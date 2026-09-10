@@ -5,45 +5,47 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - 天宇
-  type: vmess
-  server: 20.235.220.189
+  type: vless
+  server: 172.67.208.1
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  uuid: 1443b7a1-7ba9-4ec9-b904-2e867367b5d7
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  servername: odd-violet-5440.asdgrweeee13.workers.dev
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /sync
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+      Host: odd-violet-5440.asdgrweeee13.workers.dev
 - name: 🇮🇳 印度 (India) 02 - 天宇
   type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 50ddfd92-dc79-4777-a256-41e34d56836e
+  server: 4.240.110.47
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: R06_DTSjzQI9DswvRz9OqSBECfSwlpCMPR4DCc9oXyw
-  servername: www.apple.com
-  client-fingerprint: chrome
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
 - name: 🇮🇳 印度 (India) 03 - 天宇
   type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 50ddfd92-dc79-4777-a256-41e34d56836e
+  server: 104.21.69.118
+  port: 443
+  uuid: 1443b7a1-7ba9-4ec9-b904-2e867367b5d7
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: R06_DTSjzQI9DswvRz9OqSBECfSwlpCMPR4DCc9oXyw
-  servername: www.apple.com
-  client-fingerprint: chrome
+  servername: odd-violet-5440.asdgrweeee13.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: odd-violet-5440.asdgrweeee13.workers.dev
 - name: 🇮🇳 印度 (India) 04 - 天宇
   type: vless
   server: 194.61.31.126
@@ -55,8 +57,37 @@ proxies:
   reality-opts:
     public-key: R06_DTSjzQI9DswvRz9OqSBECfSwlpCMPR4DCc9oXyw
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 05 - 天宇
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 06 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: f6ec3ac9-fb0f-4bce-86bb-26cdb9933a60
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: zaintest.vuclip.com.r3xxe.eu.cc
+  network: ws
+  ws-opts:
+    path: /in-do
+    headers:
+      Host: zaintest.vuclip.com.r3xxe.eu.cc
+- name: 🇮🇳 印度 (India) 07 - 天宇
   type: vless
   server: 194.61.31.126
   port: 2053
@@ -68,6 +99,18 @@ proxies:
     public-key: R06_DTSjzQI9DswvRz9OqSBECfSwlpCMPR4DCc9oXyw
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇮🇳 印度 (India) 08 - 天宇
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 50ddfd92-dc79-4777-a256-41e34d56836e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: R06_DTSjzQI9DswvRz9OqSBECfSwlpCMPR4DCc9oXyw
+  servername: www.apple.com
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -78,6 +121,9 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - 天宇
   - 🇮🇳 印度 (India) 04 - 天宇
   - 🇮🇳 印度 (India) 05 - 天宇
+  - 🇮🇳 印度 (India) 06 - 天宇
+  - 🇮🇳 印度 (India) 07 - 天宇
+  - 🇮🇳 印度 (India) 08 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -88,5 +134,8 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - 天宇
   - 🇮🇳 印度 (India) 04 - 天宇
   - 🇮🇳 印度 (India) 05 - 天宇
+  - 🇮🇳 印度 (India) 06 - 天宇
+  - 🇮🇳 印度 (India) 07 - 天宇
+  - 🇮🇳 印度 (India) 08 - 天宇
 rules:
 - MATCH,PROXIES

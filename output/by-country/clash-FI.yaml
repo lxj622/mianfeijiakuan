@@ -6,6 +6,20 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - 天宇
   type: vless
+  server: k2.cloud--vpn.site
+  port: 443
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+- name: 🇫🇮 FI 02 - 天宇
+  type: vless
   server: 151.101.56.6
   port: 443
   uuid: d9eda159-18d6-4457-8983-55523a21658c
@@ -18,9 +32,9 @@ proxies:
     path: /?TELEGRAM---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI
     headers:
       Host: c12.com
-- name: 🇫🇮 FI 02 - 天宇
+- name: 🇫🇮 FI 03 - 天宇
   type: vless
-  server: a2.arshia-nova.ir
+  server: k2.cloud--vpn.site
   port: 443
   uuid: d9eda159-18d6-4457-8983-55523a21658c
   udp: true
@@ -32,7 +46,20 @@ proxies:
     path: /
     headers:
       Host: c12.com
-- name: 🇫🇮 FI 03 - 天宇
+- name: 🇫🇮 FI 04 - 天宇
+  type: vless
+  server: 65.109.185.234
+  port: 8080
+  uuid: 83fd52e3-c8d4-4ba6-abf4-445b99fec0f0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: italic.dearhossein-taktaz.ir
+- name: 🇫🇮 FI 05 - 天宇
   type: vless
   server: 151.101.56.6
   port: 443
@@ -46,34 +73,35 @@ proxies:
     path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
     headers:
       Host: c12.com
-- name: 🇫🇮 FI 04 - 天宇
+- name: 🇫🇮 FI 06 - 天宇
   type: vless
-  server: italic.dearhossein-taktaz.ir
-  port: 8080
-  uuid: 83fd52e3-c8d4-4ba6-abf4-445b99fec0f0
+  server: a2.arshia-nova.ir
+  port: 443
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ssl.fastly.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: italic.dearhossein-taktaz.ir
-- name: 🇫🇮 FI 05 - 天宇
+      Host: c12.com
+- name: 🇫🇮 FI 07 - 天宇
   type: vless
-  server: 104.21.33.59
+  server: 172.67.217.240
   port: 443
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
     path: /?ed=2560
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 06 - 天宇
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 08 - 天宇
   type: vless
   server: 185.79.138.71
   port: 448
@@ -96,6 +124,8 @@ proxy-groups:
   - 🇫🇮 FI 04 - 天宇
   - 🇫🇮 FI 05 - 天宇
   - 🇫🇮 FI 06 - 天宇
+  - 🇫🇮 FI 07 - 天宇
+  - 🇫🇮 FI 08 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -107,5 +137,7 @@ proxy-groups:
   - 🇫🇮 FI 04 - 天宇
   - 🇫🇮 FI 05 - 天宇
   - 🇫🇮 FI 06 - 天宇
+  - 🇫🇮 FI 07 - 天宇
+  - 🇫🇮 FI 08 - 天宇
 rules:
 - MATCH,PROXIES

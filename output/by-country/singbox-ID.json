@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 ID 01 - 天宇"
+        "🇮🇩 ID 01 - 天宇",
+        "🇮🇩 ID 02 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 ID 01 - 天宇"
+        "🇮🇩 ID 01 - 天宇",
+        "🇮🇩 ID 02 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
