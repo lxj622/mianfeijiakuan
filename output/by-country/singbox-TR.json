@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - 天宇"
+        "🇹🇷 土耳其 (Turkey) 01 - 天宇",
+        "🇹🇷 土耳其 (Turkey) 02 - 天宇",
+        "🇹🇷 土耳其 (Turkey) 03 - 天宇",
+        "🇹🇷 土耳其 (Turkey) 04 - 天宇",
+        "🇹🇷 土耳其 (Turkey) 05 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - 天宇"
+        "🇹🇷 土耳其 (Turkey) 01 - 天宇",
+        "🇹🇷 土耳其 (Turkey) 02 - 天宇",
+        "🇹🇷 土耳其 (Turkey) 03 - 天宇",
+        "🇹🇷 土耳其 (Turkey) 04 - 天宇",
+        "🇹🇷 土耳其 (Turkey) 05 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
