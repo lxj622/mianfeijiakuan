@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - 天宇"
+        "🇨🇴 CO 01 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - 天宇"
+        "🇨🇴 CO 01 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
