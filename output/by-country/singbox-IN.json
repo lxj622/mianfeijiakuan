@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇳 印度 (India) 01 - 天宇"
+        "🇮🇳 印度 (India) 01 - 天宇",
+        "🇮🇳 印度 (India) 02 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇳 印度 (India) 01 - 天宇"
+        "🇮🇳 印度 (India) 01 - 天宇",
+        "🇮🇳 印度 (India) 02 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
