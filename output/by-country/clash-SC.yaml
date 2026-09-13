@@ -4,25 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇿 AZ 01 - 天宇
+- name: 🇸🇨 SC 01 - 天宇
   type: vless
-  server: basalam.horqen.ir
-  port: 21289
-  uuid: c12db015-a63c-43e5-a744-6398a90373b5
+  server: 104.18.46.46
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇿 AZ 01 - 天宇
+  - 🇸🇨 SC 01 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇿 AZ 01 - 天宇
+  - 🇸🇨 SC 01 - 天宇
 rules:
 - MATCH,PROXIES
