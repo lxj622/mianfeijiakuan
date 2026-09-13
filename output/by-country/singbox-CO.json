@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇴 CO 01 - 天宇"
+        "🇨🇴 CO 01 - 天宇",
+        "🇨🇴 CO 02 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇴 CO 01 - 天宇"
+        "🇨🇴 CO 01 - 天宇",
+        "🇨🇴 CO 02 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
