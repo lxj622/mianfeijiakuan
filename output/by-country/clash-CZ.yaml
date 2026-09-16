@@ -1,0 +1,66 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇨🇿 CZ 01 - 天宇
+  type: vless
+  server: 172.67.208.235
+  port: 2096
+  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: courses.mftplus.qzz.io
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: courses.mftplus.qzz.io
+- name: 🇨🇿 CZ 02 - 天宇
+  type: vless
+  server: 66.81.247.155
+  port: 2083
+  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: testmikonim.hydrymhmdamyn7.workers.dev
+  network: ws
+  ws-opts:
+    path: /OAZko425kNFF0PpQ
+    headers:
+      Host: testmikonim.hydrymhmdamyn7.workers.dev
+- name: 🇨🇿 CZ 03 - 天宇
+  type: vless
+  server: 104.21.96.1
+  port: 443
+  uuid: 0836463b-214f-4af6-aa85-85a56a62388e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇨🇿 CZ 01 - 天宇
+  - 🇨🇿 CZ 02 - 天宇
+  - 🇨🇿 CZ 03 - 天宇
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇨🇿 CZ 01 - 天宇
+  - 🇨🇿 CZ 02 - 天宇
+  - 🇨🇿 CZ 03 - 天宇
+rules:
+- MATCH,PROXIES
