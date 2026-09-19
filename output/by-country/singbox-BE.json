@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - 天宇"
+        "🇧🇪 BE 01 - 天宇",
+        "🇧🇪 BE 02 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - 天宇"
+        "🇧🇪 BE 01 - 天宇",
+        "🇧🇪 BE 02 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
