@@ -6,7 +6,21 @@ log-level: info
 proxies:
 - name: 🇸🇦 SA 01 - 天宇
   type: vless
-  server: 91.209.253.25
+  server: 91.209.253.243
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 02 - 天宇
+  type: vless
+  server: 91.209.253.229
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -18,23 +32,9 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 02 - 天宇
-  type: vless
-  server: 91.209.253.119
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
 - name: 🇸🇦 SA 03 - 天宇
   type: vless
-  server: 91.209.253.216
+  server: 91.209.253.244
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -43,12 +43,12 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
 - name: 🇸🇦 SA 04 - 天宇
   type: vless
-  server: 91.209.253.229
+  server: 91.209.253.216
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -76,7 +76,7 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇸🇦 SA 06 - 天宇
   type: vless
-  server: 91.209.253.42
+  server: 91.209.253.119
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -85,12 +85,12 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
     headers:
       Host: nb.lovecf.ggff.net
 - name: 🇸🇦 SA 07 - 天宇
   type: vless
-  server: 91.209.253.119
+  server: 91.209.253.250
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -104,7 +104,35 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇸🇦 SA 08 - 天宇
   type: vless
-  server: 91.209.253.243
+  server: 91.209.253.25
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 09 - 天宇
+  type: vless
+  server: 91.209.253.25
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 10 - 天宇
+  type: vless
+  server: 91.209.253.216
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -116,6 +144,20 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 11 - 天宇
+  type: vless
+  server: 64.225.65.116
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /bd/pictures
+    headers:
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -129,6 +171,9 @@ proxy-groups:
   - 🇸🇦 SA 06 - 天宇
   - 🇸🇦 SA 07 - 天宇
   - 🇸🇦 SA 08 - 天宇
+  - 🇸🇦 SA 09 - 天宇
+  - 🇸🇦 SA 10 - 天宇
+  - 🇸🇦 SA 11 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -142,5 +187,8 @@ proxy-groups:
   - 🇸🇦 SA 06 - 天宇
   - 🇸🇦 SA 07 - 天宇
   - 🇸🇦 SA 08 - 天宇
+  - 🇸🇦 SA 09 - 天宇
+  - 🇸🇦 SA 10 - 天宇
+  - 🇸🇦 SA 11 - 天宇
 rules:
 - MATCH,PROXIES
