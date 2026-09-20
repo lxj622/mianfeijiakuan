@@ -6,46 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - 天宇
   type: vless
-  server: 172.64.52.6
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇨🇿 CZ 02 - 天宇
-  type: vless
-  server: 151.101.1.194
-  port: 80
-  uuid: 6795c884-7f09-4777-b779-76d0d6d6c0a1
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: simorghfr.global.ssl.fastly.net
-- name: 🇨🇿 CZ 03 - 天宇
-  type: vless
-  server: 188.114.97.6
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇨🇿 CZ 04 - 天宇
-  type: vless
-  server: 195.85.23.219
+  server: 195.85.23.29
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -54,23 +15,10 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 05 - 天宇
-  type: vless
-  server: 151.101.1.194
-  port: 80
-  uuid: 8c016c41-1e60-457f-bbdf-e66729612079
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
     path: /
     headers:
-      Host: simorghfr.global.ssl.fastly.net
-- name: 🇨🇿 CZ 06 - 天宇
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 02 - 天宇
   type: vless
   server: 195.85.23.252
   port: 443
@@ -84,33 +32,7 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 07 - 天宇
-  type: vless
-  server: 162.159.39.218
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇨🇿 CZ 08 - 天宇
-  type: vless
-  server: 108.162.198.178
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇨🇿 CZ 09 - 天宇
+- name: 🇨🇿 CZ 03 - 天宇
   type: vless
   server: 195.85.23.29
   port: 443
@@ -124,63 +46,51 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 10 - 天宇
-  type: vless
-  server: cz1.zuoai.cf
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 11 - 天宇
-  type: vless
-  server: 172.64.154.8
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇨🇿 CZ 12 - 天宇
-  type: vless
-  server: 195.85.23.29
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 13 - 天宇
-  type: vless
-  server: 151.101.1.194
-  port: 80
-  uuid: c19dcd53-1fed-4147-bdb6-b3d318c8d9f3
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: simorghfr.global.ssl.fastly.net
-- name: 🇨🇿 CZ 14 - 天宇
+- name: 🇨🇿 CZ 04 - 天宇
   type: vless
   server: 195.85.23.88
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 05 - 天宇
+  type: vless
+  server: 195.85.23.47
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 06 - 天宇
+  type: vless
+  server: 195.85.23.217
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 07 - 天宇
+  type: vless
+  server: cz1.zuoai.cf
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -204,13 +114,6 @@ proxy-groups:
   - 🇨🇿 CZ 05 - 天宇
   - 🇨🇿 CZ 06 - 天宇
   - 🇨🇿 CZ 07 - 天宇
-  - 🇨🇿 CZ 08 - 天宇
-  - 🇨🇿 CZ 09 - 天宇
-  - 🇨🇿 CZ 10 - 天宇
-  - 🇨🇿 CZ 11 - 天宇
-  - 🇨🇿 CZ 12 - 天宇
-  - 🇨🇿 CZ 13 - 天宇
-  - 🇨🇿 CZ 14 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -223,12 +126,5 @@ proxy-groups:
   - 🇨🇿 CZ 05 - 天宇
   - 🇨🇿 CZ 06 - 天宇
   - 🇨🇿 CZ 07 - 天宇
-  - 🇨🇿 CZ 08 - 天宇
-  - 🇨🇿 CZ 09 - 天宇
-  - 🇨🇿 CZ 10 - 天宇
-  - 🇨🇿 CZ 11 - 天宇
-  - 🇨🇿 CZ 12 - 天宇
-  - 🇨🇿 CZ 13 - 天宇
-  - 🇨🇿 CZ 14 - 天宇
 rules:
 - MATCH,PROXIES
