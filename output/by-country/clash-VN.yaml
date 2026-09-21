@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇾 MY 01 - 天宇
+- name: 🇻🇳 VN 01 - 天宇
   type: vless
   server: 160.25.75.40
   port: 443
@@ -15,21 +15,7 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇲🇾 MY 02 - 天宇
-  type: vless
-  server: 8.222.70.238
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /mall/china/doc?ed=2560fp=chrome
+    path: /html
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -37,14 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇲🇾 MY 01 - 天宇
-  - 🇲🇾 MY 02 - 天宇
+  - 🇻🇳 VN 01 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇾 MY 01 - 天宇
-  - 🇲🇾 MY 02 - 天宇
+  - 🇻🇳 VN 01 - 天宇
 rules:
 - MATCH,PROXIES

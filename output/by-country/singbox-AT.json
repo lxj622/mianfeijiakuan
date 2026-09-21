@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇹 AT 01 - 天宇"
+        "🇦🇹 AT 01 - 天宇",
+        "🇦🇹 AT 02 - 天宇",
+        "🇦🇹 AT 03 - 天宇",
+        "🇦🇹 AT 04 - 天宇",
+        "🇦🇹 AT 05 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT 01 - 天宇"
+        "🇦🇹 AT 01 - 天宇",
+        "🇦🇹 AT 02 - 天宇",
+        "🇦🇹 AT 03 - 天宇",
+        "🇦🇹 AT 04 - 天宇",
+        "🇦🇹 AT 05 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
