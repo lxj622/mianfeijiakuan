@@ -20,49 +20,48 @@ proxies:
       Host: cf3.rumedia-cdn.com
 - name: 🇷🇺 俄罗斯 (Russia) 02 - 天宇
   type: vless
-  server: 172.66.44.211
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 188.114.97.6
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: wk1.f1w.de5.net
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: wk1.f1w.de5.net
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 03 - 天宇
   type: vless
-  server: 104.21.22.180
+  server: 162.159.48.32
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 04 - 天宇
+  type: vless
+  server: serviceshub.samsclub.com
   port: 443
-  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: auto-scale-238b2b.infra-core-1630dd.workers.dev
+  servername: e34bq.oa9r.zl3.hh.vavava.kdns.fr
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
+    path: /?ed=2560
     headers:
-      Host: auto-scale-238b2b.infra-core-1630dd.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 04 - 天宇
-  type: vless
-  server: 104.18.47.113
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: e34bq.oa9r.zl3.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 05 - 天宇
   type: vless
-  server: 172.64.158.146
-  port: 2086
+  server: 162.159.0.169
+  port: 80
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -72,6 +71,20 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 06 - 天宇
+  type: vless
+  server: 5.129.238.144
+  port: 8443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xinnusvpn.duckdns.org
+  network: ws
+  ws-opts:
+    path: /wsnl
+    headers:
+      Host: xinnusvpn.duckdns.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -82,6 +95,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - 天宇
   - 🇷🇺 俄罗斯 (Russia) 04 - 天宇
   - 🇷🇺 俄罗斯 (Russia) 05 - 天宇
+  - 🇷🇺 俄罗斯 (Russia) 06 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -92,5 +106,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - 天宇
   - 🇷🇺 俄罗斯 (Russia) 04 - 天宇
   - 🇷🇺 俄罗斯 (Russia) 05 - 天宇
+  - 🇷🇺 俄罗斯 (Russia) 06 - 天宇
 rules:
 - MATCH,PROXIES
