@@ -4,24 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇷 IR 01 - 天宇
-  type: ss
-  server: p1tun2.greewebservices.ir
-  port: 2060
-  cipher: chacha20-ietf-poly1305
-  password: cVvgP0Bz69hsErPBvqKbwQ
+- name: 🇸🇪 SE 01 - 天宇
+  type: vless
+  server: 31.56.222.61
+  port: 47450
+  uuid: 79251d3c-aabc-475c-b598-67263479b382
   udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇷 IR 01 - 天宇
+  - 🇸🇪 SE 01 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇷 IR 01 - 天宇
+  - 🇸🇪 SE 01 - 天宇
 rules:
 - MATCH,PROXIES
