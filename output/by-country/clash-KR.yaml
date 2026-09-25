@@ -31,6 +31,13 @@ proxies:
     headers:
       Host: mia6.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 03 - 天宇
+  type: ss
+  server: 141.164.45.187
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 04 - 天宇
   type: vless
   server: 151.245.106.49
   port: 2053
@@ -50,6 +57,7 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 01 - 天宇
   - 🇰🇷 韩国 (South Korea) 02 - 天宇
   - 🇰🇷 韩国 (South Korea) 03 - 天宇
+  - 🇰🇷 韩国 (South Korea) 04 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -58,5 +66,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 01 - 天宇
   - 🇰🇷 韩国 (South Korea) 02 - 天宇
   - 🇰🇷 韩国 (South Korea) 03 - 天宇
+  - 🇰🇷 韩国 (South Korea) 04 - 天宇
 rules:
 - MATCH,PROXIES
