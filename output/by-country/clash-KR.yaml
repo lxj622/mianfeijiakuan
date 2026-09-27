@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇰🇷 韩国 (South Korea) 02 - 天宇
   type: vmess
   server: 140.238.2.250
@@ -37,7 +37,7 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select

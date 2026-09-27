@@ -6,12 +6,18 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - 天宇
   type: vless
-  server: 31.130.149.165
-  port: 875
-  uuid: 4a9d6057-985a-4531-851c-5b4db77b0409
+  server: 84.38.183.237
+  port: 443
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ws.nightproducts.ru
+  network: ws
+  ws-opts:
+    path: /vless#/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: 84.38.183.237
 - name: 🇷🇺 俄罗斯 (Russia) 02 - 天宇
   type: vless
   server: fbsv6.guardora.pro
@@ -26,20 +32,6 @@ proxies:
     path: /ws
     headers:
       Host: fbsv6.guardora.pro
-- name: 🇷🇺 俄罗斯 (Russia) 03 - 天宇
-  type: vless
-  server: 95.163.232.171
-  port: 14443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: media-se.compressor.work
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: 95.163.232.171
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,7 +39,6 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - 天宇
   - 🇷🇺 俄罗斯 (Russia) 02 - 天宇
-  - 🇷🇺 俄罗斯 (Russia) 03 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -55,6 +46,5 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - 天宇
   - 🇷🇺 俄罗斯 (Russia) 02 - 天宇
-  - 🇷🇺 俄罗斯 (Russia) 03 - 天宇
 rules:
 - MATCH,PROXIES
