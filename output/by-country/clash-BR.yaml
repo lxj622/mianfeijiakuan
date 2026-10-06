@@ -30,28 +30,12 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aksai.org
+  servername: ''
   network: ws
   ws-opts:
     path: /linkvws
     headers:
-      Host: aksai.org
-- name: 🇧🇷 BR 03 - 天宇
-  type: vmess
-  server: aksai.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: aksai.org
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: aksai.org
+      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
@@ -59,7 +43,6 @@ proxy-groups:
   - AUTO
   - 🇧🇷 BR 01 - 天宇
   - 🇧🇷 BR 02 - 天宇
-  - 🇧🇷 BR 03 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -67,6 +50,5 @@ proxy-groups:
   proxies:
   - 🇧🇷 BR 01 - 天宇
   - 🇧🇷 BR 02 - 天宇
-  - 🇧🇷 BR 03 - 天宇
 rules:
 - MATCH,PROXIES
