@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇲 AM 01 - 天宇"
+        "🇰🇿 KZ 01 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 AM 01 - 天宇"
+        "🇰🇿 KZ 01 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
