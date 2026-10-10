@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇺 澳大利亚 (Australia) 01 - 天宇"
+        "🇦🇺 澳大利亚 (Australia) 01 - 天宇",
+        "🇦🇺 澳大利亚 (Australia) 02 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇺 澳大利亚 (Australia) 01 - 天宇"
+        "🇦🇺 澳大利亚 (Australia) 01 - 天宇",
+        "🇦🇺 澳大利亚 (Australia) 02 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },

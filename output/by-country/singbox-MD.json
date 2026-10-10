@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇲🇩 MD 01 - 天宇",
+        "🇲🇩 MD 02 - 天宇",
+        "🇲🇩 MD 03 - 天宇",
+        "🇲🇩 MD 04 - 天宇",
+        "🇲🇩 MD 05 - 天宇",
+        "🇲🇩 MD 06 - 天宇",
+        "🇲🇩 MD 07 - 天宇",
+        "🇲🇩 MD 08 - 天宇",
+        "🇲🇩 MD 09 - 天宇",
+        "🇲🇩 MD 10 - 天宇",
+        "🇲🇩 MD 11 - 天宇",
+        "🇲🇩 MD 12 - 天宇",
+        "🇲🇩 MD 13 - 天宇",
+        "🇲🇩 MD 14 - 天宇"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇲🇩 MD 01 - 天宇",
+        "🇲🇩 MD 02 - 天宇",
+        "🇲🇩 MD 03 - 天宇",
+        "🇲🇩 MD 04 - 天宇",
+        "🇲🇩 MD 05 - 天宇",
+        "🇲🇩 MD 06 - 天宇",
+        "🇲🇩 MD 07 - 天宇",
+        "🇲🇩 MD 08 - 天宇",
+        "🇲🇩 MD 09 - 天宇",
+        "🇲🇩 MD 10 - 天宇",
+        "🇲🇩 MD 11 - 天宇",
+        "🇲🇩 MD 12 - 天宇",
+        "🇲🇩 MD 13 - 天宇",
+        "🇲🇩 MD 14 - 天宇"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
