@@ -6,14 +6,26 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 UA 01 - 天宇"
+        "🇺🇦 UA 01 - 天宇",
+        "🇺🇦 UA 02 - 天宇",
+        "🇺🇦 UA 03 - 天宇",
+        "🇺🇦 UA 04 - 天宇",
+        "🇺🇦 UA 05 - 天宇",
+        "🇺🇦 UA 06 - 天宇",
+        "🇺🇦 UA 07 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 UA 01 - 天宇"
+        "🇺🇦 UA 01 - 天宇",
+        "🇺🇦 UA 02 - 天宇",
+        "🇺🇦 UA 03 - 天宇",
+        "🇺🇦 UA 04 - 天宇",
+        "🇺🇦 UA 05 - 天宇",
+        "🇺🇦 UA 06 - 天宇",
+        "🇺🇦 UA 07 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
