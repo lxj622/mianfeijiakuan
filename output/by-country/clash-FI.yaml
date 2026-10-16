@@ -14,16 +14,16 @@ proxies:
   skip-cert-verify: true
 - name: 🇫🇮 FI 02 - 天宇
   type: vless
-  server: 3f8efdt.fi1.h1clayd.click
-  port: 443
-  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
+  server: 95.216.27.15
+  port: 2053
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: 1D_o1pqfVoReg9zLPKNy1wCL7aGWytbmbYPbbJGaozY
-  servername: 3f8efdt.fi1.h1clayd.click
-  client-fingerprint: edge
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+  servername: www.google.com
+  client-fingerprint: chrome
 - name: 🇫🇮 FI 03 - 天宇
   type: vless
   server: 95.216.27.15
@@ -50,27 +50,6 @@ proxies:
   client-fingerprint: firefox
 - name: 🇫🇮 FI 05 - 天宇
   type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇮 FI 06 - 天宇
-  type: vless
-  server: 45.144.234.157
-  port: 14430
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
-- name: 🇫🇮 FI 07 - 天宇
-  type: vless
   server: 95.216.27.15
   port: 2053
   uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
@@ -81,18 +60,14 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
   client-fingerprint: random
-- name: 🇫🇮 FI 08 - 天宇
+- name: 🇫🇮 FI 06 - 天宇
   type: vless
-  server: 95.216.27.15
-  port: 2053
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-  servername: www.google.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -104,8 +79,6 @@ proxy-groups:
   - 🇫🇮 FI 04 - 天宇
   - 🇫🇮 FI 05 - 天宇
   - 🇫🇮 FI 06 - 天宇
-  - 🇫🇮 FI 07 - 天宇
-  - 🇫🇮 FI 08 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -117,7 +90,5 @@ proxy-groups:
   - 🇫🇮 FI 04 - 天宇
   - 🇫🇮 FI 05 - 天宇
   - 🇫🇮 FI 06 - 天宇
-  - 🇫🇮 FI 07 - 天宇
-  - 🇫🇮 FI 08 - 天宇
 rules:
 - MATCH,PROXIES
