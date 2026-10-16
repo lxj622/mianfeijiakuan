@@ -7,7 +7,9 @@
       "outbounds": [
         "auto",
         "🇧🇷 BR 01 - 天宇",
-        "🇧🇷 BR 02 - 天宇"
+        "🇧🇷 BR 02 - 天宇",
+        "🇧🇷 BR 03 - 天宇",
+        "🇧🇷 BR 04 - 天宇"
       ]
     },
     {
@@ -15,7 +17,9 @@
       "tag": "auto",
       "outbounds": [
         "🇧🇷 BR 01 - 天宇",
-        "🇧🇷 BR 02 - 天宇"
+        "🇧🇷 BR 02 - 天宇",
+        "🇧🇷 BR 03 - 天宇",
+        "🇧🇷 BR 04 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
