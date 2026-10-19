@@ -6,27 +6,1014 @@ log-level: info
 proxies:
 - name: 🇬🇧 英国 (United Kingdom) 01 - 天宇
   type: vless
-  server: connect.hondamotor.site
-  port: 10002
-  uuid: c6362720-0931-4b91-b187-d8ecf3149734
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 02 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 03 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboranfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 04 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--v2ray_configs_pools?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 05 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NETfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 06 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 07 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 08 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 09 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 10 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 11 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboranfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 12 - 天宇
+  type: vless
+  server: 51.38.71.147
+  port: 8443
+  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: node-uk.connectsuite.org
+- name: 🇬🇧 英国 (United Kingdom) 13 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?V2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 14 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 15 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 16 - 天宇
+  type: vless
+  server: 159.65.51.189
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇬🇧 英国 (United Kingdom) 17 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyipfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 18 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 19 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 20 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 21 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 22 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---TEHRANARGO
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 23 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 24 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 25 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 26 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 27 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 28 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: T
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 29 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 30 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---TEHRANARGO
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 31 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 32 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?V2XAY-joinV
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 33 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: '3'
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 34 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 35 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?V2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 36 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 37 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 38 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---V2ray_confiig?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 39 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 40 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 41 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 42 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 43 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--v2ray_configs_pools?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 44 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 45 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 46 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 47 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboranfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 48 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 49 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 50 - 天宇
+  type: vless
+  server: 51.24.54.202
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 02 - 天宇
-  type: ss
-  server: 158.173.24.73
+- name: 🇬🇧 英国 (United Kingdom) 51 - 天宇
+  type: vless
+  server: 188.114.97.6
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
-- name: 🇬🇧 英国 (United Kingdom) 03 - 天宇
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---TEHRANARGO
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 52 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 53 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--V2ray_confiig?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 54 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /p=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 55 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 56 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 57 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 58 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 59 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 60 - 天宇
   type: ss
   server: 149.102.132.184
   port: 443
   cipher: aes-256-gcm
   password: g5h5jleTRSyO3Rk4
   udp: true
-- name: 🇬🇧 英国 (United Kingdom) 04 - 天宇
+- name: 🇬🇧 英国 (United Kingdom) 61 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 62 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 63 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 64 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 65 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 66 - 天宇
+  type: ss
+  server: 149.102.132.184
+  port: 80
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 67 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---Vpney
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 68 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---fp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 69 - 天宇
+  type: vless
+  server: 46.250.250.149
+  port: 2053
+  uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇬🇧 英国 (United Kingdom) 70 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 71 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---TEHRANARGOfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 72 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 73 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---TEHRANARGO
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 74 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyipfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 75 - 天宇
   type: vmess
   server: 57.129.132.223
   port: 80
@@ -41,33 +1028,394 @@ proxies:
     path: /vmess/
     headers:
       Host: google.com
-- name: 🇬🇧 英国 (United Kingdom) 05 - 天宇
+- name: 🇬🇧 英国 (United Kingdom) 76 - 天宇
   type: vless
-  server: 46.250.250.149
-  port: 2053
-  uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 06 - 天宇
-  type: ss
-  server: 149.102.132.184
-  port: 80
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 77 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
-- name: 🇬🇧 英国 (United Kingdom) 07 - 天宇
-  type: ss
-  server: 149.102.132.184
-  port: 80
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 78 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
-- name: 🇬🇧 英国 (United Kingdom) 08 - 天宇
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 79 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--V2ray_confiig?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 80 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 81 - 天宇
+  type: vless
+  server: 16.61.117.36
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇬🇧 英国 (United Kingdom) 82 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 83 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--V2ray_confiig?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 84 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 85 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: '3'
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 86 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 87 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 88 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: Tfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 89 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 90 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---Vpney
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 91 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 92 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 93 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hubfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 94 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 95 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 96 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 97 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 98 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 99 - 天宇
+  type: vmess
+  server: 57.129.132.223
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: viber.com
+- name: 🇬🇧 英国 (United Kingdom) 100 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 101 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 102 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: T
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 103 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?@EVAY_VPN
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 104 - 天宇
   type: vless
   server: 151.243.101.126
   port: 51105
@@ -79,14 +1427,325 @@ proxies:
     public-key: _DxG0K_Hvw7qfGTtfeYm95vCBS_3E2x1gzVzfJqQGjE
   servername: apple.com
   client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 09 - 天宇
-  type: ss
-  server: 141.98.101.181
+- name: 🇬🇧 英国 (United Kingdom) 105 - 天宇
+  type: vless
+  server: 188.114.98.0
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
-- name: 🇬🇧 英国 (United Kingdom) 10 - 天宇
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 106 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: '%25'
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 107 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 108 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 109 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 110 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 111 - 天宇
+  type: vless
+  server: 46.250.250.149
+  port: 2053
+  uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 112 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboranfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 113 - 天宇
+  type: vless
+  server: 46.250.250.149
+  port: 2053
+  uuid: b4caaf57-ad77-4948-a6f5-51b3513799bf
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇬🇧 英国 (United Kingdom) 114 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 115 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 116 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 117 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 118 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 119 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--i10VPN?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 120 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 121 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: '3'
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 122 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 123 - 天宇
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 124 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 125 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 126 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---TEHRANARGO
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 127 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 128 - 天宇
   type: vless
   server: 51.38.71.147
   port: 8443
@@ -95,29 +1754,237 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: node-uk.connectsuite.org
-- name: 🇬🇧 英国 (United Kingdom) 11 - 天宇
-  type: ss
-  server: 94.156.250.148
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 12 - 天宇
+- name: 🇬🇧 英国 (United Kingdom) 129 - 天宇
   type: vless
-  server: 51.38.71.147
-  port: 8443
-  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: node-uk.connectsuite.org
-- name: 🇬🇧 英国 (United Kingdom) 13 - 天宇
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 130 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 131 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 132 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--i10VPN?edfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 133 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 134 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 135 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 136 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 137 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 138 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 139 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 140 - 天宇
   type: ss
   server: 141.98.101.181
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
+- name: 🇬🇧 英国 (United Kingdom) 141 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 142 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 143 - 天宇
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 144 - 天宇
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpnfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇬🇧 英国 (United Kingdom) 145 - 天宇
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
 proxy-groups:
 - name: PROXIES
   type: select
@@ -136,6 +2003,138 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 11 - 天宇
   - 🇬🇧 英国 (United Kingdom) 12 - 天宇
   - 🇬🇧 英国 (United Kingdom) 13 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 14 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 15 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 16 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 17 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 18 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 19 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 20 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 21 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 22 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 23 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 24 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 25 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 26 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 27 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 28 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 29 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 30 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 31 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 32 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 33 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 34 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 35 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 36 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 37 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 38 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 39 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 40 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 41 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 42 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 43 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 44 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 45 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 46 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 47 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 48 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 49 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 50 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 51 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 52 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 53 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 54 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 55 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 56 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 57 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 58 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 59 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 60 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 61 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 62 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 63 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 64 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 65 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 66 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 67 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 68 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 69 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 70 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 71 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 72 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 73 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 74 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 75 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 76 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 77 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 78 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 79 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 80 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 81 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 82 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 83 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 84 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 85 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 86 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 87 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 88 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 89 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 90 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 91 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 92 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 93 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 94 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 95 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 96 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 97 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 98 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 99 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 100 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 101 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 102 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 103 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 104 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 105 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 106 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 107 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 108 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 109 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 110 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 111 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 112 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 113 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 114 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 115 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 116 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 117 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 118 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 119 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 120 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 121 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 122 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 123 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 124 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 125 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 126 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 127 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 128 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 129 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 130 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 131 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 132 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 133 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 134 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 135 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 136 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 137 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 138 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 139 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 140 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 141 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 142 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 143 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 144 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 145 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -154,5 +2153,137 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 11 - 天宇
   - 🇬🇧 英国 (United Kingdom) 12 - 天宇
   - 🇬🇧 英国 (United Kingdom) 13 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 14 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 15 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 16 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 17 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 18 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 19 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 20 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 21 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 22 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 23 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 24 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 25 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 26 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 27 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 28 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 29 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 30 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 31 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 32 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 33 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 34 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 35 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 36 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 37 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 38 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 39 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 40 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 41 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 42 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 43 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 44 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 45 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 46 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 47 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 48 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 49 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 50 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 51 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 52 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 53 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 54 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 55 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 56 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 57 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 58 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 59 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 60 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 61 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 62 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 63 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 64 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 65 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 66 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 67 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 68 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 69 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 70 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 71 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 72 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 73 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 74 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 75 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 76 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 77 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 78 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 79 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 80 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 81 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 82 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 83 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 84 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 85 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 86 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 87 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 88 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 89 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 90 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 91 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 92 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 93 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 94 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 95 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 96 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 97 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 98 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 99 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 100 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 101 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 102 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 103 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 104 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 105 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 106 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 107 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 108 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 109 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 110 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 111 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 112 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 113 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 114 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 115 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 116 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 117 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 118 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 119 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 120 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 121 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 122 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 123 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 124 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 125 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 126 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 127 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 128 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 129 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 130 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 131 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 132 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 133 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 134 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 135 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 136 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 137 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 138 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 139 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 140 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 141 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 142 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 143 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 144 - 天宇
+  - 🇬🇧 英国 (United Kingdom) 145 - 天宇
 rules:
 - MATCH,PROXIES
