@@ -17,36 +17,8 @@ proxies:
   ws-opts:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: ty986gfazs.cainiaohub.xyz
-- name: 🇳🇱 荷兰 (Netherlands) 02 (家宽) - 天宇
-  type: vless
-  server: 162.159.153.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: rayan-007.maxima.dpdns.org
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.maxima.dpdns.org
-- name: 🇬🇧 英国 (United Kingdom) 03 (家宽) - 天宇
-  type: vless
-  server: 162.159.153.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-- name: 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - 天宇
+      Host: 59.125.69.23
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - 天宇
   type: vless
   server: 103.180.20.108
   port: 8443
@@ -66,17 +38,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - 天宇
-  - 🇳🇱 荷兰 (Netherlands) 02 (家宽) - 天宇
-  - 🇬🇧 英国 (United Kingdom) 03 (家宽) - 天宇
-  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - 天宇
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - 天宇
-  - 🇳🇱 荷兰 (Netherlands) 02 (家宽) - 天宇
-  - 🇬🇧 英国 (United Kingdom) 03 (家宽) - 天宇
-  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - 天宇
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - 天宇
 rules:
 - MATCH,PROXIES
