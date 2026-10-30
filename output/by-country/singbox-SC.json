@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 SC 01 - 天宇"
+        "🇸🇨 SC 01 - 天宇",
+        "🇸🇨 SC 02 - 天宇",
+        "🇸🇨 SC 03 - 天宇"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - 天宇"
+        "🇸🇨 SC 01 - 天宇",
+        "🇸🇨 SC 02 - 天宇",
+        "🇸🇨 SC 03 - 天宇"
       ],
       "url": "https://www.google.com/generate_204"
     },
