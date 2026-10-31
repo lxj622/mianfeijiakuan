@@ -58,20 +58,6 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🇹🇷 土耳其 (Turkey) 05 - 天宇
   type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: c1a3a6ee-34d3-4fcd-8763-c2231adabed6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: firefox.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: looabturkeyeoijji.global.ssl.fastly.net.
-- name: 🇹🇷 土耳其 (Turkey) 06 - 天宇
-  type: vless
   server: 177.3.208.65
   port: 443
   uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
@@ -94,7 +80,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 03 - 天宇
   - 🇹🇷 土耳其 (Turkey) 04 - 天宇
   - 🇹🇷 土耳其 (Turkey) 05 - 天宇
-  - 🇹🇷 土耳其 (Turkey) 06 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -105,6 +90,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 03 - 天宇
   - 🇹🇷 土耳其 (Turkey) 04 - 天宇
   - 🇹🇷 土耳其 (Turkey) 05 - 天宇
-  - 🇹🇷 土耳其 (Turkey) 06 - 天宇
 rules:
 - MATCH,PROXIES
