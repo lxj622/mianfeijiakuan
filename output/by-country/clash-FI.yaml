@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - 天宇
   type: vless
-  server: 65.109.210.221
+  server: 65.109.211.81
   port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
+  uuid: 09f30c46-3964-41ce-882a-72aee83ddd42
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com.
+  servername: hw6.divarkhaghazi.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: hw3.divarkhaghazi.com.
+      Host: hw6.divarkhaghazi.com.
 - name: 🇫🇮 FI 02 - 天宇
   type: vless
   server: 65.109.211.81
@@ -26,7 +26,7 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: hw6.divarkhaghazi.com
+  servername: hw6.divarkhaghazi.com.
   network: ws
   ws-opts:
     path: /
@@ -46,104 +46,6 @@ proxies:
     headers:
       Host: 45.144.234.157
 - name: 🇫🇮 FI 04 - 天宇
-  type: vless
-  server: hw5.roghanmo.com
-  port: 465
-  uuid: a356fa77-7199-417a-80dd-0c0925789161
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw5.roghanmo.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw5.roghanmo.com
-- name: 🇫🇮 FI 05 - 天宇
-  type: vless
-  server: hw3.divarkhaghazi.com
-  port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 FI 06 - 天宇
-  type: vless
-  server: 65.109.210.221
-  port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 FI 07 - 天宇
-  type: vless
-  server: hw3.divarkhaghazi.com.
-  port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 FI 08 - 天宇
-  type: vless
-  server: hw3.divarkhaghazi.com
-  port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 FI 09 - 天宇
-  type: vless
-  server: 65.109.211.81
-  port: 465
-  uuid: 09f30c46-3964-41ce-882a-72aee83ddd42
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw6.divarkhaghazi.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw6.divarkhaghazi.com.
-- name: 🇫🇮 FI 10 - 天宇
-  type: vless
-  server: 65.109.210.221
-  port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 FI 11 - 天宇
   type: vless
   server: 45.144.234.157
   port: 14430
@@ -165,13 +67,6 @@ proxy-groups:
   - 🇫🇮 FI 02 - 天宇
   - 🇫🇮 FI 03 - 天宇
   - 🇫🇮 FI 04 - 天宇
-  - 🇫🇮 FI 05 - 天宇
-  - 🇫🇮 FI 06 - 天宇
-  - 🇫🇮 FI 07 - 天宇
-  - 🇫🇮 FI 08 - 天宇
-  - 🇫🇮 FI 09 - 天宇
-  - 🇫🇮 FI 10 - 天宇
-  - 🇫🇮 FI 11 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -181,12 +76,5 @@ proxy-groups:
   - 🇫🇮 FI 02 - 天宇
   - 🇫🇮 FI 03 - 天宇
   - 🇫🇮 FI 04 - 天宇
-  - 🇫🇮 FI 05 - 天宇
-  - 🇫🇮 FI 06 - 天宇
-  - 🇫🇮 FI 07 - 天宇
-  - 🇫🇮 FI 08 - 天宇
-  - 🇫🇮 FI 09 - 天宇
-  - 🇫🇮 FI 10 - 天宇
-  - 🇫🇮 FI 11 - 天宇
 rules:
 - MATCH,PROXIES
