@@ -19,15 +19,6 @@ proxies:
       Host: 5.178.109.174
 - name: 🇸🇪 SE 02 - 天宇
   type: vless
-  server: 194.104.94.141
-  port: 443
-  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: se3.shtil.io
-- name: 🇸🇪 SE 03 - 天宇
-  type: vless
   server: se3.shtil.io
   port: 443
   uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
@@ -35,7 +26,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: se3.shtil.io
-- name: 🇸🇪 SE 04 - 天宇
+- name: 🇸🇪 SE 03 - 天宇
   type: vless
   server: 194.104.94.141
   port: 443
@@ -52,7 +43,6 @@ proxy-groups:
   - 🇸🇪 SE 01 - 天宇
   - 🇸🇪 SE 02 - 天宇
   - 🇸🇪 SE 03 - 天宇
-  - 🇸🇪 SE 04 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -61,6 +51,5 @@ proxy-groups:
   - 🇸🇪 SE 01 - 天宇
   - 🇸🇪 SE 02 - 天宇
   - 🇸🇪 SE 03 - 天宇
-  - 🇸🇪 SE 04 - 天宇
 rules:
 - MATCH,PROXIES
