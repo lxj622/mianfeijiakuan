@@ -27,7 +27,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 03 - 天宇
   type: vless
   server: 208.69.78.217
@@ -51,31 +51,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 CH 05 - 天宇
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 CH 06 - 天宇
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -85,8 +61,6 @@ proxy-groups:
   - 🇨🇭 CH 02 - 天宇
   - 🇨🇭 CH 03 - 天宇
   - 🇨🇭 CH 04 - 天宇
-  - 🇨🇭 CH 05 - 天宇
-  - 🇨🇭 CH 06 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -96,7 +70,5 @@ proxy-groups:
   - 🇨🇭 CH 02 - 天宇
   - 🇨🇭 CH 03 - 天宇
   - 🇨🇭 CH 04 - 天宇
-  - 🇨🇭 CH 05 - 天宇
-  - 🇨🇭 CH 06 - 天宇
 rules:
 - MATCH,PROXIES

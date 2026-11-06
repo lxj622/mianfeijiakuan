@@ -22,6 +22,34 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: zoom.com
+- name: 🇱🇰 LK 03 - 天宇
+  type: vless
+  server: 141.193.213.20
+  port: 2087
+  uuid: 0ef68b97-f878-4cea-b756-c56ea3632851
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.vkehi.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.vkehi.store
+- name: 🇱🇰 LK 04 - 天宇
+  type: vless
+  server: 141.193.213.21
+  port: 2087
+  uuid: 0ef68b97-f878-4cea-b756-c56ea3632851
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.vkehi.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.vkehi.store
 proxy-groups:
 - name: PROXIES
   type: select
@@ -29,6 +57,8 @@ proxy-groups:
   - AUTO
   - 🇱🇰 LK 01 - 天宇
   - 🇱🇰 LK 02 - 天宇
+  - 🇱🇰 LK 03 - 天宇
+  - 🇱🇰 LK 04 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -36,5 +66,7 @@ proxy-groups:
   proxies:
   - 🇱🇰 LK 01 - 天宇
   - 🇱🇰 LK 02 - 天宇
+  - 🇱🇰 LK 03 - 天宇
+  - 🇱🇰 LK 04 - 天宇
 rules:
 - MATCH,PROXIES
