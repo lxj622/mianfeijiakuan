@@ -12,22 +12,6 @@ proxies:
   password: 8722de56b6c0b3f6a4d01cf91c07e6aa
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 02 - 天宇
-  type: ss
-  server: 46.17.47.58
-  port: 18443
-  cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 03 - 天宇
-  type: vless
-  server: 176.108.245.237
-  port: 443
-  uuid: 87c35d3a-36f1-fade-90b7-af60506efbb8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tfusq-ru-40sb.fade.mom
-- name: 🇷🇺 俄罗斯 (Russia) 04 - 天宇
   type: vless
   server: 185.86.147.175
   port: 443
@@ -41,7 +25,7 @@ proxies:
     path: /service/telemetry/045d381f1166/
     headers:
       Host: bhjolq0d0l.flowersgood.top
-- name: 🇷🇺 俄罗斯 (Russia) 05 - 天宇
+- name: 🇷🇺 俄罗斯 (Russia) 03 - 天宇
   type: vless
   server: 185.178.208.167
   port: 443
@@ -55,12 +39,42 @@ proxies:
     path: /session
     headers:
       Host: mbr.rkn-pediki.site
-- name: 🇷🇺 俄罗斯 (Russia) 06 - 天宇
+- name: 🇷🇺 俄罗斯 (Russia) 04 - 天宇
+  type: vless
+  server: 172.66.44.211
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wk1.f1w.de5.net
+- name: 🇷🇺 俄罗斯 (Russia) 05 - 天宇
   type: ss
   server: 130.49.189.158
   port: 43558
   cipher: chacha20-ietf-poly1305
   password: yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 06 - 天宇
+  type: vless
+  server: 176.108.245.237
+  port: 443
+  uuid: 87c35d3a-36f1-fade-90b7-af60506efbb8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tfusq-ru-40sb.fade.mom
+- name: 🇷🇺 俄罗斯 (Russia) 07 - 天宇
+  type: ss
+  server: 46.17.47.58
+  port: 18443
+  cipher: aes-256-gcm
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -73,6 +87,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - 天宇
   - 🇷🇺 俄罗斯 (Russia) 05 - 天宇
   - 🇷🇺 俄罗斯 (Russia) 06 - 天宇
+  - 🇷🇺 俄罗斯 (Russia) 07 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -84,5 +99,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - 天宇
   - 🇷🇺 俄罗斯 (Russia) 05 - 天宇
   - 🇷🇺 俄罗斯 (Russia) 06 - 天宇
+  - 🇷🇺 俄罗斯 (Russia) 07 - 天宇
 rules:
 - MATCH,PROXIES
