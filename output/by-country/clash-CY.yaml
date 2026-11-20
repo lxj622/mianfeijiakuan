@@ -4,31 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇬 BG 01 - 天宇
+- name: 🇨🇾 CY 01 - 天宇
   type: vless
-  server: 185.197.193.137
-  port: 443
-  uuid: 313b84fa-b922-500f-9b65-acb67c040cc0
+  server: 45.86.60.174
+  port: 16443
+  uuid: 13e541f3-d09d-4633-89df-8513db0ced20
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: us2.v2less.site
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: us2.v2less.site
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇬 BG 01 - 天宇
+  - 🇨🇾 CY 01 - 天宇
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇬 BG 01 - 天宇
+  - 🇨🇾 CY 01 - 天宇
 rules:
 - MATCH,PROXIES
