@@ -13,19 +13,6 @@ proxies:
   udp: true
 - name: 🇸🇪 SE 02 - 天宇
   type: vless
-  server: 5.178.109.174
-  port: 14430
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
-- name: 🇸🇪 SE 03 - 天宇
-  type: vless
   server: 77.232.143.142
   port: 443
   uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
@@ -38,7 +25,7 @@ proxies:
     path: /media/ws/
     headers:
       Host: 77.232.143.142
-- name: 🇸🇪 SE 04 - 天宇
+- name: 🇸🇪 SE 03 - 天宇
   type: vmess
   server: 62.93.166.184
   port: 1270
@@ -49,6 +36,19 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: xmfhlpy.com
+- name: 🇸🇪 SE 04 - 天宇
+  type: vless
+  server: 5.178.109.174
+  port: 14430
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
 - name: 🇸🇪 SE 05 - 天宇
   type: vless
   server: 77.232.143.142
