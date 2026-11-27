@@ -6,20 +6,6 @@ log-level: info
 proxies:
 - name: 🇰🇿 KZ 01 - 天宇
   type: vless
-  server: 3h-kazakhstan1.09vpn.com
-  port: 8443
-  uuid: 2424febb-43cb-488d-bdd1-401e923c8e48
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3h-kazakhstan1.09vpn.com
-  network: ws
-  ws-opts:
-    path: /vless/?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
-- name: 🇰🇿 KZ 02 - 天宇
-  type: vless
   server: 38.107.234.57
   port: 8443
   uuid: 2424febb-43cb-488d-bdd1-401e923c8e48
@@ -32,7 +18,7 @@ proxies:
     path: /vless/
     headers:
       Host: 38.107.234.57
-- name: 🇰🇿 KZ 03 - 天宇
+- name: 🇰🇿 KZ 02 - 天宇
   type: vmess
   server: 38.107.234.57
   port: 80
@@ -47,7 +33,7 @@ proxies:
     path: /vmess/
     headers:
       Host: ''
-- name: 🇰🇿 KZ 04 - 天宇
+- name: 🇰🇿 KZ 03 - 天宇
   type: vless
   server: 38.107.234.57
   port: 8443
@@ -59,6 +45,20 @@ proxies:
   network: ws
   ws-opts:
     path: /vless/
+    headers:
+      Host: 38.107.234.57
+- name: 🇰🇿 KZ 04 - 天宇
+  type: vless
+  server: 38.107.234.57
+  port: 8443
+  uuid: 2424febb-43cb-488d-bdd1-401e923c8e48
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3h-kazakhstan1.09vpn.com
+  network: ws
+  ws-opts:
+    path: /vless/?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
     headers:
       Host: 38.107.234.57
 proxy-groups:
